@@ -1,5 +1,4 @@
 <?php
-
 $lenguaje=$_SERVER["HTTP_ACCEPT_LANGUAGE"];
 $lengua=substr($lenguaje,0,2);
 echo $lengua;
@@ -17,5 +16,4 @@ switch($lengua){
     default:
         echo "Desconozco el idioma";
 }
-
 ?>
