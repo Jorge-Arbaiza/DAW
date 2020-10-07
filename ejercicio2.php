@@ -9,7 +9,7 @@ switch($lengua){
     case "es":
         echo "Buenos días";
     break;
-    case "cat":
+    case "ca":
         echo "Bon día";
     break;
     default:
