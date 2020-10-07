@@ -16,4 +16,5 @@ switch($lengua){
     default:
         echo "Desconozco el idioma";
 }
+
 ?>
